@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c --environment BUILD:production",
-    "test": "vitest",
+    "test": "vitest --silent=false",
     "format": "prettier --write ."
   },
   "cspell": {
